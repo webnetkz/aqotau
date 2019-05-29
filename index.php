@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Игрушки Hola</title>
+        <title>AQ OTAU</title>
 
         <meta charset="UTF-8">
         <meta name="theme-color" content="rgb(255, 255, 255)">
         <meta name="author" content="TOO WebNet">
-        <meta name="description" content="RetactorPhoto by WebNet">
+        <meta name="description" content="AQ OTAU">
         <meta name="keywords" content="RedactorPhoto">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="index, follow">
@@ -20,101 +20,96 @@
 
     <body>
         <menu>
-            <p class="phone">+7 707 535 6989</p>
+            <p class="phone">+7 777 728 43 43</p>
         </menu>
         <header>
             <div class="headerContent">
-                <h1>Развивающие игрушки от Hola</h1>
-                <h2>Доставка до двери совершенно бесплатно!</h2>
+                <h1>Дом торжеств AQ OTAU</h1>
+                <h2>Банкетный зал вместимостью до 300 человек</h2>
             </div>
         </header>
-        
-        <div class="container">
-            <div class="card">
-                <div class="cardItem">
-                    <img src="public/images/bysiC.png" alt="toys hola" class="imgCard">
-                    <div class="textCard">
-                        <h4>Бизи Куб</h4>
-                        <p>
-                            Многогранный куб, каждая сторона которого содержит в себе множество 
-                            развивающих элементов, также направленных на развитие у малышей логического мышления. 
-                            Данная игрушка отлично подойдет для любознательных малышей!
-                        </p>
-                        <h4>11 990 тг.</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="cardItem">
-                    <img src="public/images/stopH.jpg" alt="toys hola" class="imgCard">
-                    <div class="textCard">
-                        <h4>Стоп-ходули</h4>
-                        <p>
-                            Отличный выбор, если Ваш малыш только учится ходить! Вместе с ходунками от 
-                            HOLA первые шаги Вашего малыша станут гораздо ярче, интереснее, а главное - быстрее! 
-                            Ходунки можно трансформировать в стол с набором развивающих элементов!
-                        </p>
-                        <h4>19 990 тг.</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="cardItem">
-                        <img src="public/images/dumb.png" alt="toys hola" class="imgCard">
-                        <div class="textCard">
-                            <h4>Барабан от Hola</h4>
-                            <p>
-                                Барабан от HOLA - очень яркая игрушка для малышей! Яркий и красочный 
-                                барабан будет светиться разноцветными светодиодами, что сделает его максимально привлекательным 
-                                и интересным для Вашего малыша!
-                            </p>
-                            <h4>10 990 тг.</h4>
-                        </div>
-                </div>
-            </div>
-        </div>
 
         <div class="container">
             <div class="card">
                 <div class="cardItem">
-                    <img src="public/images/house.jpg" alt="toys hola" class="imgCard">
+                    <img src="public/images/one.jpg" alt="toys hola" class="imgCard">
                         <hr>
-                    <h4>Барабан от Hola</h4>
+                    <h4>Меню STANDART</h4>
                     <p>
-                        Барабан от HOLA - очень яркая игрушка для малышей! Яркий и красочный 
-                        барабан будет светиться разноцветными светодиодами, что сделает его максимально привлекательным 
-                        и интересным для Вашего малыша!
+                        3 вида холодных закусок /
+                        4 вида салата /
+                        2 горячих закусок /
+                        2 горячих блюд на выбор /
+                        фрукты /
+                        конфеты /
+                        пироженое /
+                        напитки, соки, мин.вода /
+                        водка, вино, коньяк /
+                        чай /
+                        хлебная корзина /
                     </p>
-                    <h4>10 990 тг.</h4>
+                    <h4>Цена: 10 000 НА ПЕРСОНУ</h4>
                 </div>
             </div>
             <div class="card">
                 <div class="cardItem">
-                    <img src="public/images/cube.jpg" alt="toys hola" class="imgCard">
+                    <img src="public/images/one.jpg" alt="toys hola" class="imgCard">
                         <hr>
-                    <h4>Барабан от Hola</h4>
+                    <h4>Меню PREMIUM</h4>
                     <p>
-                        Барабан от HOLA - очень яркая игрушка для малышей! Яркий и красочный 
-                        барабан будет светиться разноцветными светодиодами, что сделает его максимально привлекательным 
-                        и интересным для Вашего малыша!
+                        3 вида холодных закусок /
+                        4 вида салата /
+                        2 горячих закусок /
+                        2 горячих блюд на выбор /
+                        фрукты /
+                        конфеты /
+                        пироженое /
+                        напитки, соки, мин.вода /
+                        водка, вино, коньяк /
+                        чай /
+                        хлебная корзина /
                     </p>
-                    <h4>10 990 тг.</h4>
+                    <h4>Цена: 13 000 НА ПЕРСОНУ</h4>
                 </div>
             </div>
             <div class="card">
                 <div class="cardItem">
-                    <img src="public/images/fency.jpg" alt="toys hola" class="imgCard">
+                    <img src="public/images/one.jpg" alt="toys hola" class="imgCard">
                         <hr>
-                    <h4>Барабан от Hola</h4>
+                    <h4>Меню LUX</h4>
                     <p>
-                        Барабан от HOLA - очень яркая игрушка для малышей! Яркий и красочный 
-                        барабан будет светиться разноцветными светодиодами, что сделает его максимально привлекательным 
-                        и интересным для Вашего малыша!
+                        3 вида холодных закусок /
+                        4 вида салата /
+                        2 горячих закусок /
+                        2 горячих блюд на выбор /
+                        фрукты /
+                        конфеты /
+                        пироженое /
+                        напитки, соки, мин.вода /
+                        водка, вино, коньяк /
+                        чай /
+                        хлебная корзина /
                     </p>
-                    <h4>10 990 тг.</h4>
+                    <h4>Цена: 16 000 НА ПЕРСОНУ</h4>
                 </div>
             </div>
         </div>
+
+        <div class="ps">
+
+
+        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4103.48435586223!2d76.91065865419041!3d43.34352486940171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skz!4v1559104162148!5m2!1sru!2skz" style="width: 100%;" height="450" frameborder="0" style="border:0" allowfullscreen>
+        </iframe>
+
+            <footer>
+                Контакты:<br>
+                АЛМАТЫ мкр.Карасу ул.Озёрная 2<br>
+                + 7 777 728 43 43<br>
+                + 7 727 299 43 88<br>
+                ДОМ ТОРЖЕСТВ AQ OTAU
+            </footer>
 
         <script>
              // Проверка на поддержку service worker
