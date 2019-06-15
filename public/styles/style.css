@@ -1,10 +1,67 @@
+/* All Styles*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 html, body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header Styles */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3em;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+div.headerElements {
+
+}
+img.logo {
+
+}
+img.icons {
+
+}
+p.headerText {
+
+}
+
+/* Search and Categories Styles */
+
+div#search {
+
+}
+input.searchInput {
+
+}
+nav {
+
+}
+div.categoriesItem {
+
+}
+img.categoriesIcons {
+
+}
+
+/* Content Styles*/
+
+div#content {
+
+}
+
+/* Footer Styles */
+
+footer {
+
+}
+
+/* Forms styles */

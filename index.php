@@ -20,35 +20,169 @@
 
     <body>
         
+        <!-- Header Elements -->
+
         <header>
             <div class="headerElement">
-                <img src="public/images/logo" alt="logotype Vse v prokat">
+                <img src="public/images/logo.png" alt="logotype Vse v prokat" class="logo">
             </div>
             <div class="headerElement">
-                <p>
-                    <img src="public/images/plus.svg" class="icons" alt="append post">
+                <img src="public/images/plus.svg" alt="append post" class="icons">
+                <p class="headerText">
                     Добавить
                 </p>
             </div>
             <div class="headerElement">
-                <img src="public/images/search.svg" alt="search input">
+                <img src="public/images/user.svg" alt="search input class="icons" class="icons">
+                <p class="headerText">
+                    NameUser
+                </p>
             </div>
         </header>
 
+        <!--- Search Elements -->
+
         <div id="search">
-        
+            <input type="text" placeholder="поиск" class="searchInput">
         </div>
 
+        <!-- Catigories Elements -->
+
         <nav>
-            <div class="categoriesElement"></div>
-            <div class="categoriesElement"></div>
-            <div class="categoriesElement"></div>
-            <div class="categoriesElement"></div>
-            <div class="categoriesElement"></div>
-            <div class="categoriesElement"></div>
-            <div class="categoriesElement"></div>
-            <div class="categoriesElement"></div>
+            <div class="categoriesItem">
+                <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
+            </div>
+            <div class="categoriesItem">
+                <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
+            </div>
+            <div class="categoriesItem">
+                <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
+            </div>
+            <div class="categoriesItem">
+                <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
+            </div>
+            <div class="categoriesItem">
+                <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
+            </div>
+            <div class="categoriesItem">
+                <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
+            </div>
+            <div class="categoriesItem">
+                <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
+            </div>
+            <div class="categoriesItem">
+                <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
+            </div>
         </nav>
+
+        <!-- Content Elements -->
+
+        <div id="content">
+
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+            <div class="contentItem">
+                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+            </div>
+
+        </div>
+
+        <!-- Footer Elements -->
+
+        <footer>
+
+        </footer>
 
         <script>
              // Проверка на поддержку service worker
