@@ -1,14 +1,39 @@
 @media only screen and (max-width: 900px) {
-    header {
-        width: 100%;
-    }
 
-    .container {
-        flex-direction: column;
-        height: 220vh;
-    }
+/* All Styles*/
 
-    .card {
-        margin: 10px;
-    }
+* {
+
+}
+html, body {
+
+}
+
+/* Header Styles */
+
+header {
+
+}
+div.headerElements {
+    display: absolute;
+    height: 2.8em;
+    width: 30%;
+    margin-top: 0.1em;
+    margin-left: 1%;
+}
+img.logo {
+    height: 2.5em;
+}
+img.icons {
+    height: 2em;
+    margin-top: 0.5em;
+}
+p.headerText {
+    height: 2em;
+    margin-top: 0.5em;
+}
+
+/* Search and Categories Styles */
+
+
 }
