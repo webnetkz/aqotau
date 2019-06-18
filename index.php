@@ -42,13 +42,13 @@
             </div>
         </header>
 
-        <!--- Search Elements 
+        <!-- Search Elements -->
 
         <div id="search">
             <input type="text" placeholder="поиск" class="searchInput">
         </div>
 
-         Catigories Elements 
+        <!-- Catigories Elements 
 
         <nav>
             <div class="categoriesItem">
