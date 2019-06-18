@@ -12,20 +12,44 @@ html, body {
 /* Header Styles */
 
 header {
-
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    animation: headerNion infinite 5s;
 }
-div.headerElements {
-    display: absolute;
-    height: 2.8em;
+@keyframes headerNion {
+    0% {
+        box-shadow: ;
+    }
+    40% {
+        box-shadow: ;
+    }
+    80% {
+        box-shadow: ;
+    }
+}
+div#header {
+    display: fixed;
+    top: 0;
+    margin-left: 10%;
+    height: 3em;
+    width: 80%;
+    background-color: rgb(24, 27, 33);
+    box-shadow: 0 0 10px rgb(52, 104, 140);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+div.headerElement {
+    display: inline-block;
+    height: 2em;
     width: 30%;
-    margin-top: 0.1em;
-    margin-left: 1%;
+    margin-top: 0.5em;
+    margin-left: 1.8%;
+    background-color: rgb(52, 104, 140);
 }
 img.logo {
     height: 2.5em;
 }
 img.icons {
-    height: 2em;
     margin-top: 0.5em;
 }
 p.headerText {

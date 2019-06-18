@@ -7,6 +7,7 @@
 }
 html, body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(24, 27, 33);
 }
 
 /* Header Styles */
@@ -15,20 +16,23 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    height: 3em;
+    height: 2em;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgb(52, 104, 140);
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 0 20px rgb(0, 0, 0);
 }
-div.headerElements {
+div#header {
+
+}
+div.headerElement {
 
 }
 img.logo {
 
 }
 img.icons {
-
+    height: 1em;
 }
 p.headerText {
 
@@ -49,7 +53,7 @@ div.categoriesItem {
 
 }
 img.categoriesIcons {
-
+    height: 1em;
 }
 
 /* Content Styles*/

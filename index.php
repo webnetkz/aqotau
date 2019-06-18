@@ -23,30 +23,32 @@
         <!-- Header Elements -->
 
         <header>
-            <div class="headerElement">
-                <img src="public/images/logo.png" alt="logotype Vse v prokat" class="logo">
-            </div>
-            <div class="headerElement">
-                <img src="public/images/plus.svg" alt="append post" class="icons">
-                <p class="headerText">
-                    Добавить
-                </p>
-            </div>
-            <div class="headerElement">
-                <img src="public/images/user.svg" alt="search input class="icons" class="icons">
-                <p class="headerText">
-                    NameUser
-                </p>
+            <div id="header">
+                <div class="headerElement">
+                    <!--<img src="public/images/logo.png" alt="logotype Vse v prokat" class="logo">
+--></div>
+                <div class="headerElement">
+  <!--                  <img src="public/images/plus.svg" alt="append post" class="icons">
+                    <p class="headerText">
+                        Добавить
+                    </p>
+-->          </div>
+                <div class="headerElement">
+  <!--                  <img src="public/images/user.svg" alt="search input class="icons" class="icons">
+                    <p class="headerText">
+                        NameUser
+                    </p>
+-->          </div>
             </div>
         </header>
 
-        <!--- Search Elements -->
+        <!--- Search Elements 
 
         <div id="search">
             <input type="text" placeholder="поиск" class="searchInput">
         </div>
 
-        <!-- Catigories Elements -->
+         Catigories Elements 
 
         <nav>
             <div class="categoriesItem">
@@ -75,7 +77,7 @@
             </div>
         </nav>
 
-        <!-- Content Elements -->
+         Content Elements 
 
         <div id="content">
 
@@ -178,7 +180,7 @@
 
         </div>
 
-        <!-- Footer Elements -->
+         Footer Elements -->
 
         <footer>
 
