@@ -18,7 +18,7 @@ header {
     left: 0;
     height: 2em;
     width: 100%;
-    background-color: rgb(52, 104, 140);
+    background-image: url(../images/bg3.jpg);
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 0 20px rgb(0, 0, 0);
 }

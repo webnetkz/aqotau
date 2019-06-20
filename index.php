@@ -24,21 +24,21 @@
 
         <header>
             <div id="header">
-                <div class="headerElement">
-                    <!--<img src="public/images/logo.png" alt="logotype Vse v prokat" class="logo">
---></div>
-                <div class="headerElement">
-  <!--                  <img src="public/images/plus.svg" alt="append post" class="icons">
+                <div id="headerElementOne">
+                    <img src="public/images/plus.svg" alt="logotype Vse v prokat" class="icons">
                     <p class="headerText">
                         Добавить
                     </p>
--->          </div>
-                <div class="headerElement">
-  <!--                  <img src="public/images/user.svg" alt="search input class="icons" class="icons">
+                </div>
+                <div class="headerElementLogo">
+                    <img src="public/images/plus.svg" alt="append post" style="display: none;">
+                </div>
+                <div id="headerElementTwo">
+                    <img src="public/images/plus.svg" alt="search input class="icons" class="icons">
                     <p class="headerText">
                         NameUser
                     </p>
--->          </div>
+                </div>
             </div>
         </header>
 
