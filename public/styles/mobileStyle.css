@@ -10,6 +10,18 @@
 html, body {
 
 }
+hr.line {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.hiddenMenu {
+    display: block;
+}
+.visibleMenu {
+    display: none;
+}
 
 /* Header Styles */
 
@@ -35,6 +47,7 @@ div#header {
     width: 80%;
     background-image: url(../images/bg1.jpg);
     box-shadow: 0 0 10px rgb(52, 104, 140);
+    border-radius: 7px;
 }
 div#headerElementOne {
     position: absolute;
@@ -44,6 +57,7 @@ div#headerElementOne {
     background-image: url(../images/bg3.jpg);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     transition-duration: 400ms;
+    border-bottom-left-radius: 7px;
 }
 div#headerElementTwo {
     position: absolute;
@@ -53,6 +67,7 @@ div#headerElementTwo {
     background-image: url(../images/bg3.jpg);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     transition-duration: 400ms;
+    border-bottom-right-radius: 7px;
 }
 div#headerElementOne:active {
     box-shadow: 0 0 10px rgba(100, 255, 255, 1);
@@ -71,6 +86,11 @@ img.icons {
 }
 p.headerText {
     display: inline;
+    font-size: 0.9em;
+}
+p.headerTextTwo {
+    display: inline;
+    font-size: 0.8em;
 }
 
 /* Search and Categories Styles */
@@ -100,9 +120,26 @@ input.searchInput:focus {
 nav {
     display: flex;
     margin-top: 2em;
+    margin-left: 60px;
     flex-wrap: wrap;
 }
 div.categoriesItem {
-    width: 100px;
+    width: 70px;
+    padding: 1em;
+    
 }
+
+div#signup {
+    position: fixed;
+    top: 3.5em;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    z-index: 99;
+    background-color: rgb(24, 27, 33);
+    padding: 2em;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    transition-duration: 1s;
+}
+
 }

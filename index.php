@@ -35,8 +35,8 @@
                 </div>
                 <div id="headerElementTwo" class="headerButton">
                     <img src="public/images/user.svg" alt="search input class="icons" class="icons">
-                    <p class="headerText">
-                        NameUser
+                    <p class="headerTextTwo">
+                        Регистрация
                     </p>
                 </div>
             </div>
@@ -76,6 +76,8 @@
                 <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
             </div>
         </nav>
+
+        <hr class="line">
 
         <!-- Content Elements 
 
@@ -186,6 +188,10 @@
 
         </footer>
 
+        <div id="signup" class="visibleMenu">
+            <h1>SignUp</h1>
+        </div>
+
         <script>
              // Проверка на поддержку service worker
             if('serviceWorker' in navigator) {
@@ -195,5 +201,6 @@
             }
         </script>
         <script src="/public/scripts/main.js"></script>
+        <script src="/public/scripts/header.js"></script>
     </body>
 </html>
