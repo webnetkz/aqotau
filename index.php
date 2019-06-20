@@ -24,7 +24,7 @@
 
         <header>
             <div id="header">
-                <div id="headerElementOne">
+                <div id="headerElementOne" class="headerButton">
                     <img src="public/images/plus.svg" alt="logotype Vse v prokat" class="icons">
                     <p class="headerText">
                         Добавить
@@ -33,8 +33,8 @@
                 <div class="headerElementLogo">
                     <img src="public/images/plus.svg" alt="append post" style="display: none;">
                 </div>
-                <div id="headerElementTwo">
-                    <img src="public/images/plus.svg" alt="search input class="icons" class="icons">
+                <div id="headerElementTwo" class="headerButton">
+                    <img src="public/images/user.svg" alt="search input class="icons" class="icons">
                     <p class="headerText">
                         NameUser
                     </p>

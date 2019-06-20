@@ -43,6 +43,7 @@ div#headerElementOne {
     margin-left: 1%;
     background-image: url(../images/bg3.jpg);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transition-duration: 400ms;
 }
 div#headerElementTwo {
     position: absolute;
@@ -51,6 +52,15 @@ div#headerElementTwo {
     left: 59%;
     background-image: url(../images/bg3.jpg);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transition-duration: 400ms;
+}
+div#headerElementOne:active {
+    box-shadow: 0 0 10px rgba(100, 255, 255, 1);
+    color: rgb(88, 88, 88);
+}
+div#headerElementTwo:active {
+    box-shadow: 0 0 10px rgba(100, 255, 255, 1);
+    color: rgb(88, 88, 88);
 }
 img.logo {
     height: 2.5em;
