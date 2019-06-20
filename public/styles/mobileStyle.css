@@ -97,4 +97,12 @@ input.searchInput:focus {
     box-shadow: 0 0 10px rgba(255, 255 , 255, 0.1);
     border-radius: 0;
 }
+nav {
+    display: flex;
+    margin-top: 2em;
+    flex-wrap: wrap;
+}
+div.categoriesItem {
+    width: 100px;
+}
 }

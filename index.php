@@ -48,7 +48,7 @@
             <input type="text" placeholder="поиск" class="searchInput">
         </div>
 
-        <!-- Catigories Elements 
+        <!-- Catigories Elements -->
 
         <nav>
             <div class="categoriesItem">
@@ -77,7 +77,7 @@
             </div>
         </nav>
 
-         Content Elements 
+        <!-- Content Elements 
 
         <div id="content">
 
