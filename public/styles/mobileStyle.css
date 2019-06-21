@@ -110,6 +110,7 @@ input.searchInput {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     transition-duration: 600ms;
     border-radius: 10px;
+    font-size: 1.1em;
 }
 input.searchInput:focus {
     width: 90%;
