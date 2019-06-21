@@ -188,8 +188,24 @@
 
         </footer>
 
+        <!-- Form Registration -->
+
         <div id="signup" class="visibleMenu">
-            <h1>SignUp</h1>
+            <h1>Регистрация</h1>
+            <form class="formReg">
+                <input type="text" placeholder="Ваш почтовый адрес" class="inputReg">
+                <input type="password" placeholder="Пароль" class="inputReg">
+                <input type="password" placeholder="Повторите пароль" class="inputReg">
+                    <button class="buttonReg" type="submit">
+                        Зарегистрировать
+                    </button>
+            </form>
+        </div>
+
+        <!-- Form Append Lot -->
+
+        <div id="append" class="visibleMenu">
+            <h1>Добавить</h1>
         </div>
 
         <script>

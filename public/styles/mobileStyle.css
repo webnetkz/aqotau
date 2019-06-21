@@ -129,6 +129,8 @@ div.categoriesItem {
     
 }
 
+/* SIGNUP STYLE */
+
 div#signup {
     position: fixed;
     top: 3.5em;
@@ -136,10 +138,50 @@ div#signup {
     width: 90%;
     height: 90%;
     z-index: 99;
-    background-color: rgb(24, 27, 33);
+    background-color: rgb(21,31,45);
     padding: 2em;
     box-shadow: 0 0 10px rgb(0, 0, 0);
     transition-duration: 1s;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+form.formReg {
+    margin-top: 1em;
+    text-align: center;
+}
+input.inputReg {
+    margin: 0.5em;
+    text-align: center;
+    font-size: 1.2em;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgb(14,22,35);
+    border: none;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    transition-duration: 500ms;
+}
+input.inputReg:focus {
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    background-color: rgb(52, 104, 140);
+}
+button.buttonReg {
+    margin-top: 1.5em;
+    border: none;
+    background-color: rgb(52, 104, 140);
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    outline: none;
+    transition-duration: 500ms;
+}
+button.buttonReg:active {
+    box-shadow: none;
 }
 
 }
