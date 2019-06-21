@@ -130,7 +130,38 @@ div.categoriesItem {
     
 }
 
-/* SIGNUP STYLE */
+/* Content Styles */
+
+div.contentItem {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 3px;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+p.contentTime {
+    text-align: center;
+    color: rgb(52, 104, 140);
+    font-size: 0.8em;
+}
+img.contentImages {
+    width: 100%;
+    box-shadow: 0 0 10px rgba(22, 22, 22, 0.5);
+}
+h2.contentH2 {
+    display: inline;
+    color: rgb(255, 255, 255);
+}
+p.contentP {
+    float: right;
+    color: rgb(255, 255, 255);
+}
+hr.contentLine {
+    width: 100%;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+/* SignUP Styles */
 
 div#signup {
     position: fixed;

@@ -79,110 +79,123 @@
 
         <hr class="line">
 
-        <!-- Content Elements 
+        <!-- Content Elements -->
 
         <div id="content">
 
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <p class="contentTime">
+                    22.06.2019
+                </p>
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
+                <h2 class="contentH2">
+                    Iphone 8
+                </h2>
+                <p class="contentP">
+                    1д/7д/1м/6м/1г
+                </p>
+                <hr class="contentLine">
+                <p class="contentDescription">
+
+                </p>
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
             <div class="contentItem">
-                <img src="public/images/contentImages.png" alt="Content images" class="contentImages">
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
             </div>
 
         </div>
 
-         Footer Elements -->
+        <!-- Footer Elements -->
 
         <footer>
 
