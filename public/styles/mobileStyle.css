@@ -16,11 +16,11 @@ hr.line {
     margin-top: 1em;
     margin-bottom: 1em;
 }
-.hiddenMenu {
-    display: block;
-}
-.visibleMenu {
+.hidden {
     display: none;
+}
+.visible {
+    display: block;
 }
 
 /* Header Styles */
@@ -140,6 +140,7 @@ div.contentItem {
     background-color: rgba(0, 0, 0, 0.2);
 }
 p.contentTime {
+    margin-bottom: 5px;
     text-align: center;
     color: rgb(52, 104, 140);
     font-size: 0.8em;
@@ -153,6 +154,7 @@ h2.contentH2 {
     color: rgb(255, 255, 255);
 }
 p.contentP {
+    font-size: 0.7em;
     float: right;
     color: rgb(255, 255, 255);
 }
@@ -161,6 +163,25 @@ hr.contentLine {
     margin-bottom: 0.5em;
     margin-top: 0.5em;
 }
+p.contentDescription {
+    color: rgb(255, 255, 255);
+}
+
+/* Append log */
+
+div#append {
+    position: fixed;
+    top: 3.5em;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    z-index: 99;
+    background-color: rgb(21,31,45);
+    padding: 2em;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    transition-duration: 1s;
+}
+
 /* SignUP Styles */
 
 div#signup {

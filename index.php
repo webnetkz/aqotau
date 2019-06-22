@@ -92,11 +92,11 @@
                     Iphone 8
                 </h2>
                 <p class="contentP">
-                    1д/7д/1м/6м/1г
+                    1д/300тг 1м/8900тг 1г/43000тг
                 </p>
                 <hr class="contentLine">
                 <p class="contentDescription">
-
+                    При годовом прокате открываем новый из коробки!
                 </p>
             </div>
             <div class="contentItem">
@@ -203,7 +203,7 @@
 
         <!-- Form Registration -->
 
-        <div id="signup" class="visibleMenu">
+        <div id="signup" class="hidden">
             <h1>Регистрация</h1>
             <form class="formReg">
                 <input type="text" placeholder="Ваш почтовый адрес" class="inputReg">
@@ -217,7 +217,9 @@
 
         <!-- Form Append Lot -->
 
-        <div id="append" class="visibleMenu">
+        <div id="append" class="hidden">
+            <h2>sadfsdfasdf
+            </h2>
             <h1>Добавить</h1>
         </div>
 
