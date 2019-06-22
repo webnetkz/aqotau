@@ -7,7 +7,6 @@ self.addEventListener('install', function(e) {
      return cache.addAll([
        '/',
        '/index.php',
-       '/public/images/almatyholaLogo.png',
        '/public/scripts/main.js',
        '/public/styles/style.css',
        'public/styles/mobileStyle.css'
