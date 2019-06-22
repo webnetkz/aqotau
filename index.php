@@ -91,106 +91,177 @@
                 <h2 class="contentH2">
                     Iphone 8
                 </h2>
-                <p class="contentP">
-                    1д/300тг 1м/8900тг 1г/43000тг
+                <div class="hiddenContent hidden">
+                    <hr class="contentLine">
+                    <p class="contentP">
+                        1д./300тг. 7д./1300тг. 1м./21000тг. 1г./43000тг.
+                    </p>
+                    <p class="contentDescription">
+                        При прокате на год и более, Iphone достается из коробки!
+                    </p>
+                </div>
+            </div>
+            <div class="contentItem">
+                <p class="contentTime">
+                    22.06.2019
                 </p>
-                <hr class="contentLine">
-                <p class="contentDescription">
-                    При годовом прокате открываем новый из коробки!
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
+                <h2 class="contentH2">
+                    Iphone 8
+                </h2>
+                <div class="hiddenContent hidden">
+                    <hr class="contentLine">
+                    <p class="contentP">
+                        1д./300тг. 7д./1300тг. 1м./21000тг. 1г./43000тг.
+                    </p>
+                    <p class="contentDescription">
+                        При прокате на год и более, Iphone достается из коробки!
+                    </p>
+                </div>
+            </div>
+            <div class="contentItem">
+                <p class="contentTime">
+                    22.06.2019
                 </p>
+                <img src="iphone8.jpg" alt="Content images" class="contentImages">
+                <h2 class="contentH2">
+                    Iphone 8
+                </h2>
+                <div class="hiddenContent hidden">
+                    <hr class="contentLine">
+                    <p class="contentP">
+                        1д./300тг. 7д./1300тг. 1м./21000тг. 1г./43000тг.
+                    </p>
+                    <p class="contentDescription">
+                        При прокате на год и более, Iphone достается из коробки!
+                    </p>
+                </div>
             </div>
             <div class="contentItem">
+                <p class="contentTime">
+                    22.06.2019
+                </p>
                 <img src="iphone8.jpg" alt="Content images" class="contentImages">
+                <h2 class="contentH2">
+                    Iphone 8
+                </h2>
+                <div class="hiddenContent hidden">
+                    <hr class="contentLine">
+                    <p class="contentP">
+                        1д./300тг. 7д./1300тг. 1м./21000тг. 1г./43000тг.
+                    </p>
+                    <p class="contentDescription">
+                        При прокате на год и более, Iphone достается из коробки!
+                    </p>
+                </div>
             </div>
             <div class="contentItem">
+                <p class="contentTime">
+                    22.06.2019
+                </p>
                 <img src="iphone8.jpg" alt="Content images" class="contentImages">
+                <h2 class="contentH2">
+                    Iphone 8
+                </h2>
+                <div class="hiddenContent hidden">
+                    <hr class="contentLine">
+                    <p class="contentP">
+                        1д./300тг. 7д./1300тг. 1м./21000тг. 1г./43000тг.
+                    </p>
+                    <p class="contentDescription">
+                        При прокате на год и более, Iphone достается из коробки!
+                    </p>
+                </div>
             </div>
             <div class="contentItem">
+                <p class="contentTime">
+                    22.06.2019
+                </p>
                 <img src="iphone8.jpg" alt="Content images" class="contentImages">
+                <h2 class="contentH2">
+                    Iphone 8
+                </h2>
+                <div class="hiddenContent hidden">
+                    <hr class="contentLine">
+                    <p class="contentP">
+                        1д./300тг. 7д./1300тг. 1м./21000тг. 1г./43000тг.
+                    </p>
+                    <p class="contentDescription">
+                        При прокате на год и более, Iphone достается из коробки!
+                    </p>
+                </div>
             </div>
             <div class="contentItem">
+                <p class="contentTime">
+                    22.06.2019
+                </p>
                 <img src="iphone8.jpg" alt="Content images" class="contentImages">
+                <h2 class="contentH2">
+                    Iphone 8
+                </h2>
+                <div class="hiddenContent hidden">
+                    <hr class="contentLine">
+                    <p class="contentP">
+                        1д./300тг. 7д./1300тг. 1м./21000тг. 1г./43000тг.
+                    </p>
+                    <p class="contentDescription">
+                        При прокате на год и более, Iphone достается из коробки!
+                    </p>
+                </div>
             </div>
             <div class="contentItem">
+                <p class="contentTime">
+                    22.06.2019
+                </p>
                 <img src="iphone8.jpg" alt="Content images" class="contentImages">
+                <h2 class="contentH2">
+                    Iphone 8
+                </h2>
+                <div class="hiddenContent hidden">
+                    <hr class="contentLine">
+                    <p class="contentP">
+                        1д./300тг. 7д./1300тг. 1м./21000тг. 1г./43000тг.
+                    </p>
+                    <p class="contentDescription">
+                        При прокате на год и более, Iphone достается из коробки!
+                    </p>
+                </div>
             </div>
             <div class="contentItem">
+                <p class="contentTime">
+                    22.06.2019
+                </p>
                 <img src="iphone8.jpg" alt="Content images" class="contentImages">
+                <h2 class="contentH2">
+                    Iphone 8
+                </h2>
+                <div class="hiddenContent hidden">
+                    <hr class="contentLine">
+                    <p class="contentP">
+                        1д./300тг. 7д./1300тг. 1м./21000тг. 1г./43000тг.
+                    </p>
+                    <p class="contentDescription">
+                        При прокате на год и более, Iphone достается из коробки!
+                    </p>
+                </div>
             </div>
             <div class="contentItem">
+                <p class="contentTime">
+                    22.06.2019
+                </p>
                 <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
-            </div>
-            <div class="contentItem">
-                <img src="iphone8.jpg" alt="Content images" class="contentImages">
+                <h2 class="contentH2">
+                    Iphone 8
+                </h2>
+                <div class="hiddenContent hidden">
+                    <hr class="contentLine">
+                    <p class="contentP">
+                        1д./300тг. 7д./1300тг. 1м./21000тг. 1г./43000тг.
+                    </p>
+                    <p class="contentDescription">
+                        При прокате на год и более, Iphone достается из коробки!
+                    </p>
+                </div>
             </div>
 
         </div>
@@ -233,5 +304,6 @@
         </script>
         <script src="/public/scripts/main.js"></script>
         <script src="/public/scripts/header.js"></script>
+        <script src="/public/scripts/content.js"></script>
     </body>
 </html>

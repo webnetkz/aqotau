@@ -133,11 +133,15 @@ div.categoriesItem {
 /* Content Styles */
 
 div.contentItem {
+    transition-duration: 500ms;
     width: 90%;
     margin-left: 5%;
     margin-bottom: 3px;
     padding: 5%;
     background-color: rgba(0, 0, 0, 0.2);
+}
+div.contentItem:hover {
+    background-image: url(../images/bg2.png);
 }
 p.contentTime {
     margin-bottom: 5px;
@@ -150,7 +154,7 @@ img.contentImages {
     box-shadow: 0 0 10px rgba(22, 22, 22, 0.5);
 }
 h2.contentH2 {
-    display: inline;
+    text-align: center;
     color: rgb(255, 255, 255);
 }
 p.contentP {
@@ -164,7 +168,11 @@ hr.contentLine {
     margin-top: 0.5em;
 }
 p.contentDescription {
+    margin-top: 2em;
     color: rgb(255, 255, 255);
+}
+div.hiddenContent {
+    transition-duration: 500ms;
 }
 
 /* Append log */
