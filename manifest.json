@@ -3,14 +3,14 @@
     "name": "Vse v prokat",
     "icons": [
       {
-        "src": "/public/images/miniLogo.png",
+        //"src": "/public/images/miniLogo.png",
         "sizes": "192x192",
         "type": "image/png"
       }
     ],
     "icons": [
       {
-       "src":"/public/images/logo.png",
+       //"src":"/public/images/logo.png",
        "sizes": "512x512",
        "type": "image/png"
       }
