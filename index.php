@@ -52,22 +52,22 @@
 
         <nav>
             <div class="categoriesItem">
-                <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
+                <img src="public/images/user.svg" alt="icons for categories menu" class="categoriesIcons">
             </div>
             <div class="categoriesItem">
                 <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
             </div>
             <div class="categoriesItem">
-                <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
+                <img src="public/images/user.svg" alt="icons for categories menu" class="categoriesIcons">
+            </div>
+            <div class="categoriesItem">
+                <img src="public/images/user.svg" alt="icons for categories menu" class="categoriesIcons">
             </div>
             <div class="categoriesItem">
                 <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
             </div>
             <div class="categoriesItem">
-                <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
-            </div>
-            <div class="categoriesItem">
-                <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
+                <img src="public/images/user.svg" alt="icons for categories menu" class="categoriesIcons">
             </div>
             <div class="categoriesItem">
                 <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
@@ -93,9 +93,13 @@
                 </h2>
                 <div class="hiddenContent hidden">
                     <hr class="contentLine">
+                    <p class="contentPhone">
+                        +7 707 555 00 11
+                    </p>
                     <p class="contentP">
                         1д./300тг. 7д./1300тг. 1м./21000тг. 1г./43000тг.
                     </p>
+                    <hr class="contentLine">
                     <p class="contentDescription">
                         При прокате на год и более, Iphone достается из коробки!
                     </p>
@@ -289,8 +293,6 @@
         <!-- Form Append Lot -->
 
         <div id="append" class="hidden">
-            <h2>sadfsdfasdf
-            </h2>
             <h1>Добавить</h1>
         </div>
 
