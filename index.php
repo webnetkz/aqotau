@@ -31,7 +31,9 @@
                     </p>
                 </div>
                 <div class="headerElementLogo">
-                    <img src="public/images/plus.svg" alt="append post" style="display: none;">
+                    <a href="index.php">
+                        <img src="public/images/home.svg" alt="append post" class="homeLogo">
+                    </a>
                 </div>
                 <div id="headerElementTwo" class="headerButton">
                     <img src="public/images/user.svg" alt="search input class="icons" class="icons">
@@ -61,7 +63,7 @@
                 <img src="public/images/user.svg" alt="icons for categories menu" class="categoriesIcons">
             </div>
             <div class="categoriesItem">
-                <img src="public/images/user.svg" alt="icons for categories menu" class="categoriesIcons">
+                <img src="public/images/home.svg" alt="icons for categories menu" class="categoriesIcons">
             </div>
             <div class="categoriesItem">
                 <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
@@ -70,7 +72,7 @@
                 <img src="public/images/user.svg" alt="icons for categories menu" class="categoriesIcons">
             </div>
             <div class="categoriesItem">
-                <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
+                <img src="public/images/home.svg" alt="icons for categories menu" class="categoriesIcons">
             </div>
             <div class="categoriesItem">
                 <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
