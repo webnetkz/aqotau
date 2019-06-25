@@ -1,0 +1,83 @@
+/*-----------------------------------------------------------------------------------*/
+/* GENERAL SCRIPTS */
+/*-----------------------------------------------------------------------------------*/
+jQuery(document).ready(function($){
+
+	// Fix dropdowns in Android
+	if ( /Android/i.test( navigator.userAgent ) && jQuery( window ).width() > 769 ) {
+		$( '.nav li:has(ul)' ).doubleTapToGo();
+	}
+
+	// Table alt row styling
+	jQuery( '.entry table tr:odd' ).addClass( 'alt-table-row' );
+
+	// FitVids - Responsive Videos
+	jQuery( ".post, .widget, .panel" ).fitVids();
+
+	// Add class to parent menu items with JS until WP does this natively
+	jQuery("ul.sub-menu").parents('li').addClass('parent');
+
+
+	// Responsive Navigation (switch top drop down for select)
+	jQuery('ul#top-nav').mobileMenu({
+		switchWidth: 767,                   //width (in px to switch at)
+		topOptionText: 'Select a page',     //first option text
+		indentString: '&nbsp;&nbsp;&nbsp;'  //string for indenting nested items
+	});
+
+
+
+  	// Show/hide the main navigation
+  	jQuery('.nav-toggle').click(function() {
+	  jQuery('#navigation').slideToggle('fast', function() {
+	  	return false;
+	    // Animation complete.
+	  });
+	});
+
+	// Stop the navigation link moving to the anchor (Still need the anchor for semantic markup)
+	jQuery('.nav-toggle a').click(function(e) {
+        e.preventDefault();
+    });
+
+    // Add parent class to nav parents
+	jQuery("ul.sub-menu, ul.children").parents().addClass('parent');
+
+});
+
+function setCookie(name, value, days){
+  var date = new Date();date.setTime(date.getTime() + (days*24*60*60*1000));
+	var expires=date.toGMTString();
+	document.cookie = (name + '=' + value + expires);
+	console.log('setCookie called');
+	console.log(name + '=' + value + expires);
+}
+function getParam(p){
+    var match = RegExp('[?&]' + p + '=([^&]*)').exec(window.location.search);
+	console.log('get param called');
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+var gclid = getParam('gclid');
+if(gclid){
+    var gclsrc = getParam('gclsrc');
+    if(!gclsrc || gclsrc.indexOf('aw') !== -1){
+        setCookie('gclid', gclid, 900);
+		sessionStorage.setItem('gclid_mohit', gclid);
+    }
+}
+
+window.onload = function getCookie() {
+  var defaultGCLID = 'test';
+
+	defaultGCLID = sessionStorage.getItem('gclid_mohit');
+	/*	
+	defaultGCLID = (name = new    
+        RegExp('(?:^|;\\s*)gclid=([^;]*)').exec(document.cookie)) ? 
+        name.split(",")[1] : "";
+	*/
+	var elements = document.getElementsByName('input_15');
+	for(var i=0;i<elements.length;i++){
+		elements[i].value = defaultGCLID;
+	}
+	console.log(defaultGCLID);
+}

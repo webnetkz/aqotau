@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Allow: *.css
+Allow: *.js
+
+Sitemap: https://rent4keeps.com.au/sitemap_index.xml

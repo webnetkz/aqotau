@@ -1,0 +1,243 @@
+/*-----------------------------------------------------------------------------------*/
+/* CUSTOM SCRIPTS */
+/*-----------------------------------------------------------------------------------*/
+
+
+(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id))
+        return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/vn_VN/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+var common = {
+    tool: {
+        base64: {
+            // private property
+            _keyStr: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
+            // public method for encoding
+            encode: function(input) {
+                var output = "";
+                var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
+                var i = 0;
+
+                input = common.tool.base64._utf8_encode(input);
+
+                while (i < input.length) {
+
+                    chr1 = input.charCodeAt(i++);
+                    chr2 = input.charCodeAt(i++);
+                    chr3 = input.charCodeAt(i++);
+
+                    enc1 = chr1 >> 2;
+                    enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);
+                    enc3 = ((chr2 & 15) << 2) | (chr3 >> 6);
+                    enc4 = chr3 & 63;
+
+                    if (isNaN(chr2)) {
+                        enc3 = enc4 = 64;
+                    } else if (isNaN(chr3)) {
+                        enc4 = 64;
+                    }
+
+                    output = output +
+                            this._keyStr.charAt(enc1) + this._keyStr.charAt(enc2) +
+                            this._keyStr.charAt(enc3) + this._keyStr.charAt(enc4);
+
+                }
+
+                return output;
+            },
+            // public method for decoding
+            decode: function(input) {
+                var output = "";
+                var chr1, chr2, chr3;
+                var enc1, enc2, enc3, enc4;
+                var i = 0;
+
+                input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "");
+
+                while (i < input.length) {
+
+                    enc1 = this._keyStr.indexOf(input.charAt(i++));
+                    enc2 = this._keyStr.indexOf(input.charAt(i++));
+                    enc3 = this._keyStr.indexOf(input.charAt(i++));
+                    enc4 = this._keyStr.indexOf(input.charAt(i++));
+
+                    chr1 = (enc1 << 2) | (enc2 >> 4);
+                    chr2 = ((enc2 & 15) << 4) | (enc3 >> 2);
+                    chr3 = ((enc3 & 3) << 6) | enc4;
+
+                    output = output + String.fromCharCode(chr1);
+
+                    if (enc3 != 64) {
+                        output = output + String.fromCharCode(chr2);
+                    }
+                    if (enc4 != 64) {
+                        output = output + String.fromCharCode(chr3);
+                    }
+
+                }
+
+                output = common.tool.base64._utf8_decode(output);
+
+                return output;
+
+            },
+            // private method for UTF-8 encoding
+            _utf8_encode: function(string) {
+                string = string.replace(/\r\n/g, "\n");
+                var utftext = "";
+
+                for (var n = 0; n < string.length; n++) {
+
+                    var c = string.charCodeAt(n);
+
+                    if (c < 128) {
+                        utftext += String.fromCharCode(c);
+                    }
+                    else if ((c > 127) && (c < 2048)) {
+                        utftext += String.fromCharCode((c >> 6) | 192);
+                        utftext += String.fromCharCode((c & 63) | 128);
+                    }
+                    else {
+                        utftext += String.fromCharCode((c >> 12) | 224);
+                        utftext += String.fromCharCode(((c >> 6) & 63) | 128);
+                        utftext += String.fromCharCode((c & 63) | 128);
+                    }
+
+                }
+
+                return utftext;
+            },
+            // private method for UTF-8 decoding
+            _utf8_decode: function(utftext) {
+                var string = "";
+                var i = 0;
+                var c = c1 = c2 = 0;
+
+                while (i < utftext.length) {
+
+                    c = utftext.charCodeAt(i);
+
+                    if (c < 128) {
+                        string += String.fromCharCode(c);
+                        i++;
+                    }
+                    else if ((c > 191) && (c < 224)) {
+                        c2 = utftext.charCodeAt(i + 1);
+                        string += String.fromCharCode(((c & 31) << 6) | (c2 & 63));
+                        i += 2;
+                    }
+                    else {
+                        c2 = utftext.charCodeAt(i + 1);
+                        c3 = utftext.charCodeAt(i + 2);
+                        string += String.fromCharCode(((c & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
+                        i += 3;
+                    }
+
+                }
+
+                return string;
+            }
+        }
+    }
+};
+
+jQuery(document).ready(function($) {
+
+    try {
+        // Show modal and handle product name
+        var showApplyForm = function(productName) {
+            if (productName == null || typeof productName == 'undefined' || productName.length <= 0) {
+                jQuery('#GosApplyForm fieldset .product-name-group').hide();
+            } else {
+                jQuery('#GosApplyForm fieldset .product-name-group #Desired_Product__c').val(productName);
+                jQuery('#GosApplyForm fieldset .product-name-group #product_name').text(productName);
+            }
+            jQuery('.bs-applynow-modal-lg').modal('show');
+        };
+        jQuery('a[data-target=".bs-applynow-modal-lg"]').bind('click', function(e) {
+            var product = $(this).attr('data-product');
+            var productName = '';
+            if (product != null && typeof product != 'undefined') {
+                try {
+                    product = $.parseJSON(common.tool.base64.decode(product));
+                    productName = product.post.post_title;
+                } catch (e) {
+                    console.log(e);
+                }
+            }
+            showApplyForm(productName);
+            e.preventDefault();
+            return false;
+        });
+		$('.input-postcode').yamFormat(); 
+    } catch (e) {
+        console.log(e);
+    }
+
+    $('#footer_main_menu li span.footer-nav-title-lvl1').bind('click', function() {
+        try {
+            var width = $(window).innerWidth();
+            if (width < 1024) {
+                var el = $(this).siblings('div.menu-menu-footer-container');
+                if (el.is(':visible'))
+                    return false;
+                $('#footer_main_menu li div.menu-menu-footer-container').slideUp();
+                el.slideDown();
+            }
+        } catch (e) {
+            console.log(e);
+        }
+    });
+    $(document).on('click', '#wrapper #content #left .bs-docs-sidenav-tab a', function() {
+        var el = $(this).parent('.bs-docs-sidenav-tab').siblings('ul.bs-docs-sidenav');
+        el.toggle();
+        if (el.is(':visible')) {
+            $(this).text('Hide categories');
+        } else {
+            $(this).text('Show categories');
+        }
+    });
+	$('#input-state').live('keypress', function(e) {
+	  		var input = jQuery('#input-state').val();
+			if(e.keyCode==13){
+				if((input.length) < 4)
+				  {
+					 alert('The postcode is 4 digits');
+					 jQuery('#input-state').focus();
+					 return false;
+				  }		
+				  else		
+				  jQuery('.search-location').submit();
+			}
+		});	
+});
+function isNumberKey(evt)
+{
+   var charCode = (evt.which) ? evt.which : evt.keyCode
+   if (charCode > 31 && (charCode < 48 || charCode > 57))
+      return false;
+
+   return true;
+}
+function checkinput()
+{
+	 			var input = jQuery('#input-state').val();
+				  if((input.length) < 4)
+				  {
+					 alert('The postcode is 4 digits');
+					 jQuery('#input-state').css('border','1px solid red');
+					 jQuery('#input-state').focus();
+					 return false;
+				  }	
+				  if(!parseInt(input)){
+					  alert('Please input 4 digits');
+					  return false;
+			     }	
+				 jQuery('.search-location').submit();
+}
