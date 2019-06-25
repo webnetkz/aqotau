@@ -54,7 +54,9 @@
 
         <nav>
             <div class="categoriesItem">
-                <img src="public/images/user.svg" alt="icons for categories menu" class="categoriesIcons">
+                <a href="logo.html">
+                    <img src="public/images/user.svg" alt="icons for categories menu" class="categoriesIcons">
+                </a>
             </div>
             <div class="categoriesItem">
                 <img src="public/images/plus.svg" alt="icons for categories menu" class="categoriesIcons">
